@@ -51,7 +51,7 @@ def path_to_svg(polys, xdim, ydim, em, par):
 
 
 def convert(glyphs, ascent, descent, name, par=1, keep=False):
-    Привет! Просто здравствуй!
+
     em = 1000
     scale = em / (ascent + descent)
     print(ascent, descent)

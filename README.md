@@ -1,3 +1,21 @@
+```sh
+sudo apt install fontforge
+
+git clone https://github.com/ali1234/bitmap2ttf.git
+
+cd bitmap2ttf/
+
+pip install .
+
+gunzip 12x24.pcf.gz
+
+pcftottf 12x24.pcf 12x24.ttf
+
+sudo fc-cache -f -v
+
+```
+
+
 Bitmap2ttf converts (monochrome) bitmap fonts into ttf fonts.
 
 There are three parts:
